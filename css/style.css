@@ -1,0 +1,115 @@
+.nav-bg{
+    background: linear-gradient(to right,#232CFF,#4F5AE1);
+}
+
+.contorno{
+    margin-top: 30px;
+    border: 3px solid #4F5AE1;
+    border-radius: 5px;
+}
+
+.hr-custom{
+    border: 3px solid #4F5AE1;
+    width: 15%;
+}
+
+.hr-custom2{
+    border: 3px solid #4F5AE1;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.btn-center{
+    border-top: 2px solid #4F5AE1;
+    background-color: rgba(35, 42, 255, 0.925);
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+@media(max-width:1024px){
+    .btn-center{
+        margin-left: 25%;
+    }
+}
+
+.btn-center:hover{
+    background-color: #232CFF;
+    box-shadow: 0.5px 0.5px 3px;
+}
+
+.campo-valor-total{
+    border: 0.5px solid green;
+    background-color: rgba(172, 255, 47, 0.247);
+}
+
+.valor-total{
+    font-weight: bold;
+    color: green;
+    font-size: 1.2em;
+}
+
+footer .footer{
+    margin-top: 50px !important;
+    background: linear-gradient(to right,#232CFF,#4F5AE1) !important;
+}
+
+
+  /* label color */
+  .input-field label {
+    color: #232CFF !important;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #232CFF !important;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #232CFF !important;
+    box-shadow: 0 1px 0 0 #232CFF !important;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #232CFF !important;
+    box-shadow: 0 1px 0 0 #232CFF !important;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #232CFF !important;
+    box-shadow: 0 1px 0 0 #232CFF !important;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #232CFF !important;
+  }
+
+  .square{
+    width: 100%;
+    border: 3px solid;
+    margin-bottom: 10px;
+  }
+
+  .square:nth-child(1){
+    border-color: #FF9800;
+  }
+
+  .square:nth-child(2){
+    border-color: #2E7D32;
+  }
+
+  .square:nth-child(3){
+    border-color: #1565C0;
+  }
+
+  .square:nth-child(4){
+    border-color: purple;
+  }
+  .square:nth-child(5){
+    border-color: cyan;
+  }
