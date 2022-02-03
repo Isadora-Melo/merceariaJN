@@ -4,7 +4,7 @@
 
 function connect() {
     $username = 'root';
-    $password = '123';
+    $password = '';
 
     $pdo = new PDO('mysql:host=localhost;dbname=merceariajn;charset=utf8', $username, $password);
     

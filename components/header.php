@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercearia-JN</title>
+    <title>Desenvolvimento Web I</title>
     <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.min.css">
@@ -13,7 +13,7 @@
     <div class="navbar-fixed nav-bg">
         <nav class="nav-bg">
         <div class="nav-wrapper container">
-            <a href="index.php" class="brand-logo"><i class="material-icons">local_grocery_store</i> Mercearia JN</a>
+            <a href="index.php" class="brand-logo"><img src="img/logo-mercado.png" style="width: 95px;" alt="Logo"></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php">Home</a></li>

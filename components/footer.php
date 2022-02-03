@@ -1,8 +1,8 @@
-<footer class="page-footer" style="margin-top: 50px !important;background: linear-gradient(to right,#232CFF,#4F5AE1) !important;">
+<footer class="page-footer" style="margin-top: 50px !important;background: linear-gradient(-20deg, #072436 0%, #346888 100%) !important;">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text"><a href="index.php" class="white-text">Mercearia JN</a></h5>
+                    <h5 class="white-text"><a href="index.php" class="white-text">Mercado Verde</a></h5>
                     </div>
                     <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>

@@ -1,0 +1,72 @@
+-Título do Projeto: Gerenciador de Mercearia
+-Equipe:
+- Isadora Mayra de Melo
+- Larissa Almeida
+- Nicole Caroline Santos
+
+-Descrição das funcionalidades
+
+* Na página de login -> 
+	O usuario consegue entrar no sistema utilizando um nome de usuario e uma senha, que na próxima etapa será tratado, para que dependendo do cargo do funcionário eles tenham acesso somente algumas funciomalidades do sistema.
+
+* Na página home (vendas) ->
+	O vendedor consegue realizar vendas, informando qual o produto e sua quantidade, gerando assim o total.
+
+* Na página de estoque ->
+	- É possível ver quais produtos possui no estoque da mercearia, juntamente com a sua quantidade, preço de compra, preço de venda e sua porcentagem.
+	- É possível editar um produto.
+	- É possível cadastrar um novo produto no estoque, clicando no botão 'cadastrar novo produto' - que abrirá uma nova página que permitirá cadastrar.
+	- É possível fazer buscas de produtos informando o seu nome.
+	- É possível excluir um produto do estoque.
+
+* Na página de vendas ->
+	- É possível buscar as vendas feitas em determinado período de tempo.
+	- Mostra todas as vendas realizadas, informando a data, total da venda, lucro líquido e a porcentagem.
+	- É possível ver os detalhes da venda, como qual o produto foi comprado e sua quantidade.
+	- É possível excluir uma venda.
+
+* Na página de entrada ->
+	- É possível inserir novos produtos no estoque, informando o nome e sua quantidade e o total de custo
+
+* Na página de relatórios ->
+	- É possível buscar os relatórios em um determinado tempo.
+	- Mostra os produtos que são mais vendidos.
+	- Mostra os produtos com menor quantidade no estoque.
+	- Mostra
+		- Lucro total da empresa
+		- Lucro Líquido
+		- Porcentagem
+		- Total em produtos bruto 
+		- Total em produtos líquido
+
+
+* Na página de usuario ->
+	- É possível cadastrar novos usuarios para logar no sistema, informando seu nome, um user, uma senha e qual o cargo que ele irá exercer na mercearia.
+
+
+============================== REQUISITOS ===================================
+
+* Tela para fazer vendas
+* Tela para ver vendas feitas
+* Tela para adicionar estoques
+* Tela para consultar o estoque
+* Tela para fazer relatório
+* Tela para cadastrar novos usuários
+	- Nível 1: Vendedor
+	- Nível 2: Gerente
+	- Nível 3: Administrador
+
+
+- Vendedor
+	* Possui acesso a tela para fazer vendas e ver as que foram feitas
+	* Possui acesso a tela de consulta o estoque
+
+- Gerente
+	* Possui acesso a todas as telas, exceto:
+		- Cadastrar os usuários
+		- Relatórios
+
+- Administração
+	* Possui acesso a todas as telas
+
+	=============================================================================
